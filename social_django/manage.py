@@ -3,6 +3,21 @@
 import os
 import sys
 
+<!-- Web.Config Configuration File -->
+
+<configuration>
+    <system.web>
+        <customErrors mode="Off"/>
+    </system.web>
+</configuration>
+
+<!-- Web.Config Configuration File -->
+
+<configuration>
+    <system.web>
+        <customErrors mode="RemoteOnly" defaultRedirect="mycustompage.htm"/>
+    </system.web>
+</configuration>
 
 def main():
     """Run administrative tasks."""
